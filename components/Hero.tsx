@@ -1,7 +1,7 @@
 import { Spotlight } from "@/components/ui/Spotlight";
 import { TextGenerateEffect } from "@/components/ui/TextGenerateEffect";
 import { MagicButton } from "@/components/ui/MagicButton";
-import { FaLocationArrow } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -35,10 +35,10 @@ const Hero = () => {
             Hi, {`I'm`} Ishara, a Full Stack Developer based in Australia, passionate about transforming ideas into dynamic and scalable digital solutions.
           </p>
 
-          <a href="#about">
+          <a href="/CV_Ishara_Rathnayake.pdf" target="_blank">
             <MagicButton
-              title="Show my work"
-              icon={<FaLocationArrow />}
+              title="Download CV"
+              icon={<FaDownload />}
               position="right"
             />
           </a>

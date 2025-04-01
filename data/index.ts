@@ -49,7 +49,7 @@ export const gridItems = [
 
   {
     id: 5,
-    title: "Currently building a JS Animation library",
+    title: "Currently building a React component library",
     description: "The Inside Scoop",
     className: "md:col-span-3 md:row-span-2",
     imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -189,7 +189,7 @@ export const workExperience = [
     company: "Hatchyard (Pvt) Ltd",
     desc: "Developed and maintained robust web and mobile applications for online stock trading using Ember.js, including a Cordova wrapper for the mobile app. Also built a Cordova plugin for automatic OTP reading.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp1.svg",
   },
   {
     id: 5,
@@ -197,7 +197,7 @@ export const workExperience = [
     company: "Ingenii Lanka (Pvt) Ltd",
     desc: "Designed, built, and launched a GPS tracking and fleet management app using React Native from scratch. Contributed to the Ingenii GPS Tracking Platform’s web app by improving performance and developing real-time tracking and reporting modules. Helped implement a lightweight socket server for asset tracking and maintained backend services for reports, alerts, and notifications.",
     className: "md:col-span-2",
-    thumbnail: "/exp4.svg",
+    thumbnail: "/exp2.svg",
   },
   {
     id: 6,
@@ -213,13 +213,16 @@ export const socialMedia = [
   {
     id: 1,
     img: "/git.svg",
+    url: 'https://github.com/ishara11rathnayake'
   },
   {
     id: 2,
-    img: "/twit.svg",
+    img: "/facebook.svg",
+    url: 'https://www.facebook.com/ishara.rathnayake.5437/'
   },
   {
     id: 3,
     img: "/link.svg",
+    url: 'https://www.linkedin.com/in/ishara-rathnayake-168b92149/'
   },
 ];
