@@ -48,28 +48,30 @@ const RecentProjects = () => {
                 {des}
               </p>
 
-              <div className="flex items-center justify-between mt-7 mb-3">
-                <div className="flex items-center">
-                  {iconLists.map((icon, index) => (
-                    <div
-                      key={index}
-                      className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
-                      style={{
-                        transform: `translateX(-${5 * index + 2}px)`,
-                      }}
-                    >
-                      <img src={icon} alt="icon5" className="p-2" />
+                <div className="flex items-center justify-between mt-7 mb-3">
+                    <div className="flex items-center">
+                        {iconLists.map((icon, index) => (
+                            <div
+                                key={index}
+                                className="border border-white/[.2] rounded-full bg-black lg:w-10 lg:h-10 w-8 h-8 flex justify-center items-center"
+                                style={{
+                                    transform: `translateX(-${5 * index + 2}px)`,
+                                }}
+                            >
+                                <img src={icon} alt="icon5" className="p-2"/>
+                            </div>
+                        ))}
                     </div>
-                  ))}
-                </div>
 
-                <div className="flex justify-center items-center">
-                  <p className="flex lg:text-xl md:text-xs text-sm text-purple">
-                    Check Live Site
-                  </p>
-                  <FaLocationArrow className="ms-3" color="#CBACF9" />
+                    <a href={link} target="_blank">
+                        <div className="flex justify-center items-center">
+                            <p className="flex lg:text-xl md:text-xs text-sm text-purple">
+                                Check Live Site
+                            </p>
+                            <FaLocationArrow className="ms-3" color="#CBACF9"/>
+                        </div>
+                    </a>
                 </div>
-              </div>
             </PinContainer>
           </div>
         ))}
