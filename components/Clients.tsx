@@ -1,5 +1,3 @@
-"use client";
-
 import React from 'react';
 import {InfiniteMovingCards} from "@/components/ui/InfiniteMoingCrads";
 import {companies, testimonials} from "@/data";
