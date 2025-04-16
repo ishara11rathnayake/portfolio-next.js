@@ -13,7 +13,7 @@ const RecentProjects = () => {
         <span className="text-purple">recent projects</span>
       </h1>
       <div className="flex flex-wrap items-center justify-center p-4 gap-x-24 gap-y-8 mt-10">
-        {projects.map(({id, img, title, des, iconLists, link}) => (
+        {projects.map(({id, img, title, des, iconLists, link, url}) => (
           <div
             className="sm:h-[41rem] h-[32rem] lg:min-h-[32.5rem] flex items-center justify-center sm:w-[570px] w-[80vw]"
             key={id}
@@ -63,7 +63,7 @@ const RecentProjects = () => {
                         ))}
                     </div>
 
-                    <a href={link} target="_blank">
+                    <a href={url} target="_blank">
                         <div className="flex justify-center items-center">
                             <p className="flex lg:text-xl md:text-xs text-sm text-purple">
                                 Check Live Site

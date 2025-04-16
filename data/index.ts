@@ -77,14 +77,16 @@ export const projects = [
     img: "/1262.png",
     iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/firebase.svg"],
     link: "https://play.google.com/store/apps/details?id=com.lkdev.playbook.prod&hl=en_AU",
+    url: "https://play.google.com/store/apps/details?id=com.lkdev.playbook.prod&hl=en_AU",
   },
   {
     id: 2,
     title: "Job Finder - Job Portal",
     des: "A job portal that connects job seekers and employers. Job seekers can find jobs, and employers can post jobs.",
-    img: "/p2.svg",
+    img: "/job_finder.png",
     iconLists: ["/vue.svg", "/tail.svg", "/ts.svg"],
-    link: "https://github.com/adrianhajdin/zoom-clone",
+    link: "https://github.com/ishara11rathnayake/job-finder",
+    url: "https://job-finder-vue.netlify.app/",
   },
   // {
   //   id: 3,
